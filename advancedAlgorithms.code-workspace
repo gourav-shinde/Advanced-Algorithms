@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Advanced algorithm Codes"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"ostream": "cpp"
+		}
+	}
+}
