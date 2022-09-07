@@ -38,17 +38,17 @@ void homeworkHornerws(){
     
     //positive terms are
     int sum=arr[0];
-
+    int xsquare=pow(x,2);
     for(int i=2;i<power+1;i+=2){
-        sum=sum*x*x+arr[i];
+        sum=sum*xsquare+arr[i];
         // cout<<sum<<endl;
     }
     // cout<<"sum is "<<sum<<endl;
-    int sum2=arr[1]*x;
+    int sum2=arr[1];
     for(int i=3;i<power+1;i+=2){
-        sum2=sum2*x*x+arr[i]*x;
+        sum2=sum2*xsquare+arr[i];
     }
-    
+    sum2=sum2*x;
     cout<<"Answer:\nFor\n +x : "<<sum+abs(sum2)<<"\n -x : "<<sum-abs(sum2)<<endl;
     
 }
