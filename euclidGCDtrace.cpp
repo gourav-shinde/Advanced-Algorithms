@@ -37,28 +37,28 @@ int extendedEuclidGCD(int a,int b,int *s,int *t){
     else{
         *s=x1;*t=y1;
     }
-    // cout<<"S "<<*s<<"  T "<<*t<<endl;
+    cout<<"S "<<*s<<"  T "<<*t<<endl;
     return gcd;
 }
 
 int main()
 {
-    #ifndef ONLINE_JUDGE
-    freopen("input.txt","r",stdin);
-    #endif
-    ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+    // #ifndef ONLINE_JUDGE
+    // freopen("input.txt","r",stdin);
+    // #endif
+    // ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
     
     int t=1;
-    cin>>t;
+    // cin>>t;
 
     while(t--)
     {
-        cout<<gcd(3,2)<<endl;
-        cout<<"Count is "<<::count<<endl;
-        ::count=0;
-        cout<<gcd(1035,585)<<endl;
-        cout<<"Count is "<<::count<<endl;
-        // int s=0,t=0;
-        // cout<<"g "<<extendedEuclidGCD(7803,15009,&s,&t)<<" s "<<s<<" t "<<t<<endl;
+        // cout<<gcd(3,2)<<endl;
+        // cout<<"Count is "<<::count<<endl;
+        // ::count=0;
+        // cout<<gcd(1035,585)<<endl;
+        // cout<<"Count is "<<::count<<endl;
+        int s=0,t=0;
+        cout<<"g "<<extendedEuclidGCD(17,3120,&s,&t)<<" s "<<s<<" t "<<t<<endl;
     }
 }

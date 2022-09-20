@@ -9,7 +9,9 @@
 			"numeric": "cpp",
 			"string_view": "cpp",
 			"regex": "cpp",
-			"iostream": "cpp"
+			"iostream": "cpp",
+			"ostream": "cpp",
+			"cmath": "cpp"
 		}
 	}
 }
